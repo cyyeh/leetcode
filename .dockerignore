@@ -1,0 +1,7 @@
+algorithms/
+data-structures/
+problems/
+docker/
+.dockerignore
+Makefile
+README.md
