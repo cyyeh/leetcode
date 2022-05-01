@@ -1,6 +1,6 @@
 # LeetCode
 
-Use prebuilt Python 3.8 Docker container to run scripts on data structures/algorithms.
+Use prebuilt Python3.8 Docker image to run scripts on data structures/algorithms.
 
 ## Todos
 
