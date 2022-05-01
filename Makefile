@@ -15,10 +15,10 @@ rm:
 	docker image rm python-3.8-slim:latest python:3.8-slim
 
 lint:
-	pylint --disable=R,C **/*.py
+	pylint --disable=R,C --recursive=y .
 
 test:
-	pytest -vv --cov=**/test_*.py **/test_*.py
+	pytest -v **/**/*.py
 
 format:
-	black **/*.py
+	black **/**/*.py
