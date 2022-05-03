@@ -2,7 +2,9 @@ from typing import List
 
 
 def find_max_consecutive_ones(nums: List[int]) -> int:
-    """Given a binary array nums, return the maximum number of consecutive 1's in the array."""
+    """Given a binary array nums, return the maximum number of consecutive 1's in the array.
+    https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3238/
+    """
     max_consecutive_ones = current_consecutive_ones = 0
 
     for num in nums:
